@@ -5,8 +5,9 @@ main(){
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
-      appBar: AppBar(backgroundColor: Colors.teal,
-        title: const Text('Counter Application'),),
+      appBar: AppBar(backgroundColor: Colors.red,
+        title: const Text('Counter Application', style: TextStyle(fontFamily: 'Daydream',
+      fontSize: 32.0, color: Colors.white,),),),
     body: const CounterApp(),
     ),
   ));

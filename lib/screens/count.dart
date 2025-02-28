@@ -44,6 +44,7 @@ class _CounterAppState extends State<CounterApp> {
       child: Column(children:[
       Text("$counter", style: 
       TextStyle(
+      fontFamily: 'Daydream',
       fontSize: 70.0, color: changeColor(counter),
       )),
       Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
